@@ -18,6 +18,34 @@ My work spans **LLMs and RAG, multi-agent systems, model evaluation, computer vi
 
 These repositories include research and educational prototypes. Willow and GuardianSense are not clinically validated medical systems.
 
+## Web app case studies
+
+These examples show how I connect an AI problem to an implemented prototype, evaluation, and clear documentation. **Demo status checked 30 October 2026:** the three Vercel-hosted apps below are temporarily paused. The case studies, linked publication, and public Willow code remain available.
+
+### AI-ClassSims: multi-agent classroom simulation
+
+**Problem:** Give preservice teachers a way to practice classroom interactions and receive feedback.
+
+**My role and work:** Co-PI and technical contributor on a multi-agent LLM classroom-simulation project with real-time feedback for teacher preparation. I contributed to the research and evaluation approach and co-authored the IETC 2026 paper.
+
+**Evidence:** [IETC 2026 paper](https://doi.org/10.1109/IETC69527.2026.11568604). [App](https://aiclassims.com) - hosting temporarily paused. Research prototype; implementation remains private.
+
+### CareWise: citation-grounded caregiver information
+
+**Problem:** Help parents explore autism-related questions with responses tied to a curated reference corpus.
+
+**My role and work:** Developer and technical lead of a parent-facing research prototype. I designed and developed retrieval and citation-grounded responses, documented implementation and evaluation, and used the project as an LLM course case study. The implementation uses Next.js, React, TypeScript, and Postgres/pgvector.
+
+**Evidence:** Implemented application and course case study. [App](https://carewise.space) - hosting temporarily paused. Research prototype; clinical validation and efficacy have not been established. Implementation remains private.
+
+### Willow: streamed LLM application engineering
+
+**Problem:** Make an AI reflection-companion prototype easier to demonstrate and improve the chat experience.
+
+**My role and work:** Developed a temporary no-login chat demo and chat-stability fixes in a Next.js/TypeScript application. The prototype combines streamed responses, retrieval, memory, and safety checks.
+
+**Evidence:** [Public code and commit history](https://github.com/memari-majid/willow). [App](https://willow-red.vercel.app) - hosting temporarily paused. This is a research prototype, without a claim of therapeutic benefit or clinical validation.
+
 ## Research and teaching projects
 
 - **DataGovAI:** Project lead on a multi-agent RAG research system for government records-retention compliance with the Utah Office of Data Privacy.
